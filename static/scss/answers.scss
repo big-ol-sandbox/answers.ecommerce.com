@@ -1,9 +1,32 @@
 .Answers
 {
-  // insert Answers scss here e.g.
-  //&-nav {
-  //  padding-top: 32px;
-  //}
+//Beers
+.HitchhikerResultsGridThreeColumns-title {
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-font-size-md-lg);
+    line-height: var(--yxt-line-height-lg);
+    font-weight: var(--yxt-font-weight-bold);
+    font-style: normal;
+    color: white;
+    margin: 0;
+    border: var(--yxt-border-default);
+    border-top-left-radius: var(--yxt-border-radius);
+    border-top-right-radius: var(--yxt-border-radius);
+    display: flex;
+    padding: calc(var(--yxt-base-spacing) / 2) var(--yxt-base-spacing);
+    align-items: flex-end;
+    background-color: var(--yxt-color-brand-primary);
+}
+.HitchhikerResultsGridThreeColumns-titleLabel {
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-font-size-xlg);
+    line-height: var(--yxt-line-height-lg);
+    font-weight: var(--yxt-font-weight-bold);
+    font-style: normal;
+    color: white;
+}
+
+
 }
 
 .Overlay
