@@ -1,6 +1,6 @@
 .Answers
 {
-//Beers
+//Title Bar
 .HitchhikerResultsGridThreeColumns-title {
     font-family: var(--yxt-font-family);
     font-size: var(--yxt-font-size-md-lg);
@@ -24,6 +24,11 @@
     font-weight: var(--yxt-font-weight-bold);
     font-style: normal;
     color: white;
+}
+.HitchhikerResultsGridThreeColumns-title svg, .HitchhikerResultsGridThreeColumns-title img {
+    height: var(--yxt-base-spacing);
+    width: var(--yxt-base-spacing);
+    filter: invert(1);
 }
 
 
