@@ -31,6 +31,95 @@
     filter: invert(1);
 }
 
+//Images
+.HitchhikerProductProminentImage-img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+}
+ //CTAs
+.HitchhikerCTA  {
+    color: #fff;
+    background: var(--yxt-color-brand-primary);
+    padding: .5rem 1rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    text-transform: none;
+  }
+  .HitchhikerCTA:hover {
+    background: var(--yxt-color-brand-primary);
+    background-color: rgb(190, 190, 190);
+    text-decoration: none;
+    color: var(--yxt-color-brand-primary);
+    border-color: var(--yxt-color-brand-primary);
+  }
+
+  .styleOverride {
+    background-color: #ffffff;
+    color: #4899f1;
+  }
+  .styleOverride:hover {
+    background: rgba(72,153,241,.2);
+    box-shadow: none;
+  }
+ .HitchhikerProductProminentImage-ctasWrapper {
+      padding: var(--yxt-base-spacing);
+      padding-top: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+//View More
+.HitchhikerResultsGridTwoColumns-viewMore, .HitchhikerResultsGridThreeColumns-viewMore {
+    background: linear-gradient(var(--yxt-color-brand-primary),rgb(119, 3, 1));
+    border-radius: 0.4rem;
+    transition: all .3s ease-in-out;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 50px;
+    &:hover {
+      box-shadow: 0 16px 24px rgba(37,51,90,.18), 0 0 0 rgba(37,51,90,.28);
+    }
+  }
+  .HitchhikerResultsStandard-viewMore {
+    background: linear-gradient(#AF0402,rgb(119, 3, 1));
+    border-radius: 0.4rem;
+    transition: all .3s ease-in-out;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 50px;
+    &:hover {
+      box-shadow: 0 16px 24px rgba(37,51,90,.18), 0 0 0 rgba(37,51,90,.28);
+    }
+  }
+  .HitchhikerResultsGridTwoColumns-viewMoreLabel,
+  .HitchhikerResultsGridTwoColumns-viewMore svg,
+  .HitchhikerResultsGridThreeColumns-viewMoreLabel,
+  .HitchhikerResultsGridThreeColumns-viewMore svg,
+  .HitchhikerResultsStandard-viewMoreLabel,
+  .HitchhikerResultsStandard-viewMore svg {
+    color: white;
+    font-size: var(--yxt-font-size-md-lg);
+    font-weight: var(--yxt-font-weight-semibold);
+  }
+  
+  .HitchhikerResultsGridThreeColumns-viewMoreLink:hover,
+  .HitchhikerResultsGridThreeColumns-viewMoreLink:focus,
+  .HitchhikerResultsGridThreeColumns-viewMoreLink:active,
+  .HitchhikerResultsStandard-viewMoreLink:hover,
+  .HitchhikerResultsStandard-viewMoreLink:focus,
+  .HitchhikerResultsStandard-viewMoreLink:active,
+  .HitchhikerResultsGridTwoColumns-viewMoreLink:hover,
+  .HitchhikerResultsGridTwoColumns-viewMoreLink:focus,
+  .HitchhikerResultsGridTwoColumns-viewMoreLink:active {
+    text-decoration: none;
+  }
+
+
 
 }
 

@@ -126,7 +126,7 @@
       "label": "Beer", // The name of the vertical in the section header and the navigation bar
       "verticalLimit": 15, // The result count limit for vertical search
       "universalLimit": 6, // The result count limit for universal search
-      "cardType": "product-prominentimage", // The name of the card to use - e.g. accordion, location, customcard 
+      "cardType": "beer-card", // The name of the card to use - e.g. accordion, location, customcard 
       // "icon": "star", // The icon to use on the card for this vertical
       "iconUrl": "https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/beer-icon-256.png",
       "universalSectionTemplate": "grid-three-columns"
